@@ -6,9 +6,10 @@ is deliberately its own thing, because the license makes Embernet a commercial
 partner rather than a parent.
 
 `tokens.css` in this directory is the only copy of the palette that decides
-anything. Both websites and each product's embedded UI vendor a copy and run a
-CI step that diffs it. If you change a value here, the failing builds will tell
-you where else it needs to land.
+anything. Both websites and each product's embedded UI are meant to vendor a
+copy of it. A CI step that diffs each copy against this one is planned and does
+not exist yet, so until it does, change a value here first and then update the
+copies by hand.
 
 ## The names
 
@@ -78,17 +79,22 @@ value for fills, dots, and chart series, and a `-text` value that is the only
 one allowed to carry type on light. Use the wrong half and you have
 reintroduced the bug this whole file exists to prevent.
 
-### The two oranges converged
+### The two oranges converge on one
 
-The Gateway's UI used `#FF6A00` and the website used `#FF5A00`. Eight points
+The Gateway's UI uses `#FF6A00` and the website uses `#FF5A00`. Eight points
 apart is the kind of thing nobody notices side by side and a designer
-eventually asks about. They are now both `#FF5A00`, and the Gateway moved,
+eventually asks about. The decision is `#FF5A00` everywhere, and the Gateway moves,
 because on the light ground `#FF5A00` is 3.00:1 against `#FF6A00`'s 2.75:1, so
 the HotLoop value is the better of the two exactly where both are weakest.
 
-That change also fixed a real defect. The Gateway's `--accent-ink` was
-`#FFFFFF` on `#FF6A00`, which measures **2.87:1** at a 13px base size. Every
-primary button in the shipped product was below AA. It is now `#1A1200`.
+**Status: decided, not yet applied to the Gateway.** Its stylesheet still says
+`#FF6A00`.
+
+The same change fixes a real defect. The Gateway's `--accent-ink` is
+`#FFFFFF` on `#FF6A00`, which measures **2.87:1** at a 13px base size, so every
+primary button in the shipped product is below AA. The fix is `#1A1200`, which
+is 5.94:1 on the orange. It goes in with the same change and is equally not
+applied yet.
 
 ## Type
 
@@ -142,9 +148,9 @@ say. That is the house move. Claim something, then name its limit before a
 reader has to find it. It is also why the integrations grid ships a "Certified"
 tier with a count of zero.
 
-**Keep the directness, lose the profanity on public product pages.** The org
-profile README swears and it works there. A plant manager's procurement
-department reads `/gateway/`.
+**Keep the directness, lose the profanity on public pages.** The org homepage
+used to swear, and it worked as a voice, but a plant manager's procurement
+department reads `/gateway/` and finds the org homepage right behind it.
 
 ## The mark
 
@@ -162,9 +168,15 @@ Three variants:
 Two rules for the wordmark. The word is **outlined paths, never a live `<text>`
 element**, because a `font-family="Arial, Helvetica, sans-serif"` renders as a
 different typeface on every platform and as something unpredictable inside a
-GitHub README. And the dark half of the word is **`currentColor`, never a
-hardcoded hex**, because a hardcoded `#1A1A1A` makes the wordmark invisible on
-GitHub's dark theme, which is exactly where this file gets read.
+GitHub README. And the ink of the word must **flip inside the file, with a
+`prefers-color-scheme` media query**, never a hardcoded hex.
+
+The obvious answer, `currentColor`, does not work, and this cost an hour to
+find out. GitHub serves README images through `<img>`, and an `<img>`-loaded SVG
+does not inherit `currentColor` from the host page, so it renders black and the
+wordmark still vanishes on GitHub's dark theme. A media query inside the SVG
+works there because the file carries its own document context. Verify any
+wordmark change by rasterizing it on both grounds, not by reading the markup.
 
 Avatars are the mark alone. At YouTube's rendered 98px and Reddit's circular
 256px the word is illegible, so only the wide banners carry the wordmark.
@@ -187,9 +199,11 @@ form controls follow. Always ship the blocking pre-paint script that reads the
 stored preference before first paint, or the page flashes white on every
 navigation.
 
-Only grounds, text, and borders flip. **The accent does not change between
-themes, and neither do the semantic hues.** Their `-text` variants do, because
-the contrast requirement reverses.
+Grounds, text, and borders flip. **The brand orange does not change between
+themes** when it is a fill. The semantic colors do shift lighter on the dark
+ground so they hold contrast against it, and their `-text` variants shift with
+them, because the contrast requirement reverses. The link color is the one
+place the orange itself changes value, and that is the point of the rule above.
 
 ## What stays divergent, on purpose
 

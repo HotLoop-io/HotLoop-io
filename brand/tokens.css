@@ -1,9 +1,10 @@
 /* HotLoop design tokens. CANONICAL.
  *
  * The only copy that decides anything is this file, in HotLoop-io/HotLoop-io.
- * hotloop.io, docs.hotloop.io, and each product's embedded UI vendor a copy and
- * run a CI step that diffs it against this one. Edit it here, then let the
- * failing builds tell you what to update.
+ * hotloop.io, docs.hotloop.io, and each product's embedded UI are meant to vendor
+ * a copy of it. A CI step that diffs each copy against this one is planned and
+ * does not exist yet, so until it does, keep the copies in sync by hand. Edit
+ * it here first, then update them.
  *
  * Two rules shape everything below. Both came from a measurement, not a
  * preference, and both are load-bearing.

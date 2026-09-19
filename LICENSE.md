@@ -2,6 +2,8 @@
 
 **Version 1.0, 2026**
 
+**Scope.** This license governs HotLoop Gateway. HotLoop Flow is a separate product, licensed under the Apache License, Version 2.0, and is not covered by this license.
+
 Copyright (c) 2026 HotLoop. All rights reserved except as granted below.
 
 This is a source-available license. It is **not** an OSI-approved open source license, because it restricts commercial and business use. Read it before you use, modify, or distribute HotLoop.
