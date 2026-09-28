@@ -2,7 +2,7 @@
 
 This is the canonical brand for everything HotLoop. Not the Fireball red, not
 the EmberNET tokens. Those are a different company's house style, and HotLoop
-is deliberately its own thing, because the license makes Embernet a commercial
+is deliberately its own thing, because the license makes EmberNET a commercial
 partner rather than a parent.
 
 `tokens.css` in this directory is the only copy of the palette that decides
