@@ -13,9 +13,10 @@ copies by hand.
 
 ## The names
 
-The brand is **HotLoop**. The products are **HotLoop Gateway** and **HotLoop
-Flow**. On second reference inside a page about one of them, "Gateway" and
-"Flow" are fine.
+The brand is **HotLoop**. The products are **HotLoop IoT**, **HotLoop Edge**,
+**HotLoop Gateway**, **HotLoop Edge Relay** and **HotLoop Flow**. On second
+reference inside a page about one of them, the short name ("Edge", "Flow") is
+fine.
 
 Bare "HotLoop" never means the Gateway on any page where Flow also appears.
 This sounds pedantic until you write a sentence like "HotLoop connects to your
