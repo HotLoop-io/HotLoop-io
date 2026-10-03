@@ -2,7 +2,7 @@
 
 **Version 1.0, 2026**
 
-**Scope.** This license governs HotLoop IoT, HotLoop Edge, HotLoop Gateway and HotLoop Edge Relay. HotLoop Flow is a separate product, licensed under the Apache License, Version 2.0, and is not covered by this license.
+**Scope.** This license governs HotLoop IoT, HotLoop Edge, HotLoop Gateway, HotLoop Edge Relay and HotLoop Cascade. HotLoop Flow is a separate product, licensed under the Apache License, Version 2.0, and is not covered by this license.
 
 Copyright (c) 2026 HotLoop. All rights reserved except as granted below.
 
