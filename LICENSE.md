@@ -1,49 +1,72 @@
-# HotLoop Community License
+License text copyright (c) 2024 MariaDB plc, All Rights Reserved.
+"Business Source License" is a trademark of MariaDB plc.
 
-**Version 1.0, 2026**
+Parameters
 
-**Scope.** This license governs HotLoop IoT, HotLoop Edge, HotLoop Gateway, HotLoop Edge Relay and HotLoop Cascade. HotLoop Flow is a separate product, licensed under the Apache License, Version 2.0, and is not covered by this license.
+Licensor: HotLoop LLC
 
-Copyright (c) 2026 HotLoop. All rights reserved except as granted below.
+Licensed Work: HotLoop IoT, HotLoop Edge, HotLoop Gateway, HotLoop Edge Relay, HotLoop Flow and HotLoop Cascade, in the version of each that you received. The Licensed Work is (c) 2026 HotLoop LLC.
 
-This is a source-available license. It is **not** an OSI-approved open source license, because it restricts commercial and business use. Read it before you use, modify, or distribute HotLoop.
+Additional Use Grant: You may make production use of the Licensed Work in these two ways, and only these two.
 
-## 1. Definitions
+(1) Home and Lab Use. You may use the Licensed Work for personal, household, hobby, non-commercial, educational, evaluation, development and testing purposes. Evaluation, development and testing count as Home and Lab Use only while the Licensed Work is not running, monitoring or controlling live operations of a business.
 
-- **"HotLoop"** or **"the Software"** means the software distributed under this license, including its source code, binaries, configuration, and accompanying documentation.
-- **"You"** means the person or entity exercising rights under this license.
-- **"Individual Use"** means use of the Software by a natural person for personal, household, hobbyist, educational, or noncommercial community or nonprofit purposes. The Software must not be used by, for, or on behalf of any business or for-profit organization, and must not be used to generate revenue or to provide a commercial product or service to any third party.
-- **"Business Use"** means any use of the Software by, for, or on behalf of a business, company, corporation, partnership, sole proprietorship, or other for-profit entity, for any purpose whatsoever, including purely internal operations, regardless of whether the Software is resold, sublicensed, or exposed to anyone outside that entity, and regardless of whether a fee is charged.
-- **"EmberNET"** means EmberNET and its designated affiliates, the sole authorized commercial partner for Business Use of HotLoop.
+(2) Business Use through EmberNET. You may make Business Use of the Licensed Work if, and only if, you run it through EmberNET (https://embernet.ai), HotLoop's channel for business use, under the EmberNET terms in effect for your account.
 
-## 2. Grant for Individual Use
+For purposes of this grant:
 
-Subject to the terms of this license, HotLoop grants You a worldwide, royalty-free, non-exclusive license to use, copy, modify, self-host, and distribute the Software, in original or modified form, solely for Individual Use. Any copy or substantial portion of the Software that You distribute must retain this license and all copyright notices.
+"Business Use" means any use by, for or on behalf of a company, partnership, sole proprietorship or other for-profit organization, or in the course of earning a living, to run, monitor, control or support its operations, facilities, products or services. It is Business Use whether the use is purely internal or reaches customers, and whether or not a fee is charged. Use that is not Home and Lab Use is Business Use.
 
-## 3. Business Use Requires EmberNET
+"Run it through EmberNET" means that each copy of the Licensed Work you use for Business Use is deployed and operated under your own EmberNET account.
 
-**No rights are granted under this license for Business Use.** If You wish to use HotLoop in connection with any business or for-profit purpose, You must obtain it through EmberNET's official Business/Enterprise offering, under a separate commercial agreement with EmberNET. EmberNET is the sole and exclusive authorized channel through which HotLoop may be obtained and used for Business Use. Deploying or operating the Software for Business Use without a commercial agreement with EmberNET is not authorized, and is a violation of this license.
+This grant does not extend to any of the following: (a) offer the Licensed Work, or any of its functionality, to third parties as a hosted, managed or software-as-a-service offering; (b) sell, resell, sublicense, rent or lease the Licensed Work; (c) embed or bundle the Licensed Work in a product or service that you sell, license or otherwise provide for a fee; or (d) charge anyone for access to the Licensed Work.
 
-## 4. Trademarks
+Change Date: Four years after the date the version of the Licensed Work you received was first made publicly available under this License.
 
-This license does not grant You any right to use the "HotLoop" name, logo, or branding, except as needed to accurately state that Your work is based on or derived from HotLoop. All trademark and branding rights are reserved.
+Change License: GNU General Public License, Version 3.0
 
-## 5. Modifications and Redistribution
+Notice
 
-You may modify the Software for Your own Individual Use. If You redistribute the Software, whether modified or unmodified, You must do so under this same license, must retain all copyright and license notices, and must clearly document any changes You made.
+The Business Source License (this document, or the "License") is not an Open Source license. However, the Licensed Work will eventually be made available under an Open Source License, as stated in this License.
 
-## 6. Termination
+Terms
 
-Your rights under this license terminate automatically if You use the Software in violation of its terms, including any unauthorized Business Use. Reinstatement, if any, is at the sole discretion of HotLoop and EmberNET.
+The Licensor hereby grants you the right to copy, modify, create derivative
+works, redistribute, and make non-production use of the Licensed Work. The
+Licensor may make an Additional Use Grant, above, permitting limited
+production use.
 
-## 7. No Warranty
+Effective on the Change Date, or the fourth anniversary of the first publicly
+available distribution of a specific version of the Licensed Work under this
+License, whichever comes first, the Licensor hereby grants you rights under
+the terms of the Change License, and the rights granted in the paragraph
+above terminate.
 
-THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL HOTLOOP, ITS CONTRIBUTORS, OR EMBERNET BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+If your use of the Licensed Work does not comply with the requirements
+currently in effect as described in this License, you must purchase a
+commercial license from the Licensor, its affiliated entities, or authorized
+resellers, or you must refrain from using the Licensed Work.
 
-## 8. Questions
+All copies of the original and modified Licensed Work, and derivative works
+of the Licensed Work, are subject to this License. This License applies
+separately for each version of the Licensed Work and the Change Date may vary
+for each version of the Licensed Work released by Licensor.
 
-For a Business Use license, contact EmberNET. For anything else, contact support@hotloop.io.
+You must conspicuously display this License on each original or modified copy
+of the Licensed Work. If you receive the Licensed Work in original or
+modified form from a third party, the terms and conditions set forth in this
+License apply to your use of that work.
 
----
+Any use of the Licensed Work in violation of this License will automatically
+terminate your rights under this License for the current and all other
+versions of the Licensed Work.
 
-*This license is a template written for HotLoop's specific business model. It has not been reviewed by a lawyer. Have it reviewed by qualified legal counsel before relying on it commercially.*
+This License does not grant you any right in any trademark or logo of
+Licensor or its affiliates (provided that you may use a trademark or logo of
+Licensor as expressly required by this License).
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON
+AN "AS IS" BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS,
+EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND
+TITLE.
