@@ -139,7 +139,7 @@ numeric ranges. Oxford commas throughout.
 
 **American spelling on the websites and in this org.** Flow's source is
 consistently British and stays that way; it is a coherent voice and rewriting
-it would cost more than it returns. But "HotLoop Community License" is a named
+it would cost more than it returns. But "Business Source License" is a named
 legal instrument that appears on most public pages, and "licence" beside it
 reads as a typo.
 
