@@ -1,9 +1,8 @@
 # HotLoop brand standard
 
-This is the canonical brand for everything HotLoop. Not the Fireball red, not
-the EmberNet tokens. Those are a different company's house style, and HotLoop
-is deliberately its own thing, because the license makes EmberNet a commercial
-partner rather than a parent.
+This is the canonical brand for everything HotLoop. HotLoop has its own house
+style. EmberNet is a partner platform with a different one, and HotLoop does
+not borrow its tokens.
 
 `tokens.css` in this directory is the only copy of the palette that decides
 anything. Both websites and each product's embedded UI are meant to vendor a
@@ -104,7 +103,7 @@ applied yet.
 
 Two independent reasons, both real. A product whose entire argument is "do not
 depend on infrastructure you do not control" cannot open every page with a
-request to `fonts.googleapis.com`. And Emberburn already runs in air-gapped
+request to `fonts.googleapis.com`. And HotLoop already runs in air-gapped
 clusters where that host is not slow, it is unreachable, which makes a CDN font
 a blank page rather than a slow one.
 
